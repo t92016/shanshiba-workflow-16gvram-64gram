@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "repository": "shanshiba-workflow-16gvram-64gram",
+  "original_author": "山獅霸的多重宇宙 (mathruffian-dot)",
+  "shared_by": "三師爸",
+  "upstream_url": "https://github.com/mathruffian-dot/shanshiba-workflow-16gvram-64gram",
+  "upstream_commit": "8e6b0d87e8f564ef020b49d33942b2313d7913bb",
+  "backup_date": "2026-10-21",
+  "automatic_sync": false,
+  "hardware": {
+    "gpu_vendor": "NVIDIA",
+    "target_dedicated_vram_gb": 16,
+    "minimum_system_ram_gb": 64,
+    "storage_type": "NVMe SSD",
+    "approximate_models_storage_gb": 145,
+    "additional_workspace_required": true,
+    "platform_reference": "Windows 11",
+    "actual_16gb_gpu_speed_tested": false
+  },
+  "evidence": "作者於 2026-10-07 在 RTX 5090 上限制資源模擬驗證；真正 16GB 顯卡的速度未實測。",
+  "resource_caution": "預留作業系統與其他程式使用的資源；一次只執行一項 GPU 工作。",
+  "agent_policy": {
+    "check_hardware_before_install": true,
+    "stop_large_downloads_if_insufficient_or_unknown": true,
+    "gpu_jobs_concurrent_max": 1
+  },
+  "licenses": {
+    "code": "MIT except per-file exceptions",
+    "flashvsr_cli": "GPL-3.0-or-later",
+    "documentation_media": "CC-BY-NC-4.0",
+    "third_party": "THIRD_PARTY_NOTICES.md"
+  }
+}
